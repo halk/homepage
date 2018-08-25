@@ -1,0 +1,78 @@
+# Site settings
+baseURL = "//www.halilkoklu.de"
+languageCode = "en-GB"
+title = "Halil Köklü"
+theme = "split"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-2170832-1"
+
+# Copyright
+copyright = "&copy;2012 Halil Köklü"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Halil Köklü"
+  description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups in North & Latin America, Europe and the Middle East, with amongst others Rocket Internet, Namshi and Koding. He is currently Interim CTO at LoveCrafts."
+  shareImage = "images/social.jpg"
+  twitterHandle = "halk"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "left top"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Profile"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/halilkoklu/"
+
+      [[params.links.list1.link]]
+        text = "Crunchbase"
+        url = "https://www.crunchbase.com/person/halil-koklu"
+
+      [[params.links.list1.link]]
+        text = "AngelList"
+        url = "https://angel.co/halil-koklu"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/halk"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/halilkoklu/"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Contact"
+
+      [[params.links.list3.link]]
+        text = "Email"
+        url = "mailto:halil@koklu.me"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
