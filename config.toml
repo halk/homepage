@@ -42,14 +42,17 @@ copyright = "&copy;2012 Halil Köklü"
       [[params.links.list1.link]]
         text = "LinkedIn"
         url = "https://www.linkedin.com/in/halilkoklu/"
+        target = "_blank"
 
       [[params.links.list1.link]]
         text = "Crunchbase"
         url = "https://www.crunchbase.com/person/halil-koklu"
+        target = "_blank"
 
       [[params.links.list1.link]]
         text = "AngelList"
         url = "https://angel.co/halil-koklu"
+        target = "_blank"
 
   # Links List #2
   [[params.links]]
@@ -59,10 +62,12 @@ copyright = "&copy;2012 Halil Köklü"
       [[params.links.list2.link]]
         text = "Twitter"
         url = "https://twitter.com/halk"
+        target = "_blank"
 
       [[params.links.list2.link]]
         text = "Instagram"
         url = "https://www.instagram.com/halilkoklu/"
+        target = "_blank"
 
   # Links List #3
   [[params.links]]
@@ -72,8 +77,3 @@ copyright = "&copy;2012 Halil Köklü"
       [[params.links.list3.link]]
         text = "Email"
         url = "mailto:halil@koklu.me"
-
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
