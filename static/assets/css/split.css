@@ -143,7 +143,13 @@ body.page-template-page-fullsingle-split p {
 }
 @media (max-width: 800px) {
   .fs-split .split-image {
-    height: 80vh;
+    height: 60vh;
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .fs-split .split-image {
+    height: 40vh;
     width: 100%;
   }
 }
@@ -175,6 +181,7 @@ body.page-template-page-fullsingle-split p {
 @media (max-width: 800px) {
   .fs-split .split-content .split-content-vertically-center {
     padding: 40px;
+    margin-top: 0;
   }
 }
 
