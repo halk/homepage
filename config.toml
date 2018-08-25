@@ -4,6 +4,7 @@ languageCode = "en-GB"
 title = "Halil Köklü"
 theme = "split"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+uglyURLs = true
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-2170832-1"
@@ -16,7 +17,7 @@ copyright = "&copy;2012 Halil Köklü"
   # Metadata for search engines and social sharing
   author = "Halil Köklü"
   description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups in North & Latin America, Europe and the Middle East, with amongst others Rocket Internet, Namshi and Koding. He is currently Interim CTO at LoveCrafts."
-  shareImage = "images/social.jpg"
+  shareImage = "images/social.png"
   twitterHandle = "halk"
 
   # Favicon
