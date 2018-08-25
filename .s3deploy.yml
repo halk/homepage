@@ -1,0 +1,15 @@
+routes:
+    - route: "^.+\\.(js|css|svg|ttf)$"
+      headers:
+         Cache-Control: "max-age=630720000, no-transform, public"
+      gzip: true
+    - route: "^.+\\.(png|jpg|ico)$"
+      headers:
+         Cache-Control: "max-age=630720000, no-transform, public"
+      gzip: false
+    - route: "^.+\\.(json|xml)$"
+      headers:
+         Cache-Control: "max-age=2592000, no-transform, public"
+      gzip: true
+    - route: "^.+\\.(html)$"
+      gzip: true
