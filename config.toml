@@ -10,14 +10,14 @@ uglyURLs = true
 googleAnalytics = "UA-2170832-1"
 
 # Copyright
-copyright = "&copy;2012 Halil Köklü"
+copyright = "&copy; Halil Köklü"
 
 [params]
 
   # Metadata for search engines and social sharing
   author = "Halil Köklü"
-  description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups in North & Latin America, Europe and the Middle East, with amongst others Rocket Internet, Namshi and Koding. He is currently Interim CTO at LoveCrafts."
-  shareImage = "images/social.png"
+  description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups in North & South America, Europe and the Middle East, with amongst others Rocket Internet, Namshi and Koding. He is currently CTO at LoveCrafts."
+  shareImage = "images/social.jpg"
   twitterHandle = "halk"
 
   # Favicon
@@ -49,11 +49,6 @@ copyright = "&copy;2012 Halil Köklü"
         url = "https://www.crunchbase.com/person/halil-koklu"
         target = "_blank"
 
-      [[params.links.list1.link]]
-        text = "AngelList"
-        url = "https://angel.co/halil-koklu"
-        target = "_blank"
-
   # Links List #2
   [[params.links]]
     [params.links.list2]
@@ -62,11 +57,6 @@ copyright = "&copy;2012 Halil Köklü"
       [[params.links.list2.link]]
         text = "Twitter"
         url = "https://twitter.com/halk"
-        target = "_blank"
-
-      [[params.links.list2.link]]
-        text = "Instagram"
-        url = "https://www.instagram.com/halilkoklu/"
         target = "_blank"
 
   # Links List #3
