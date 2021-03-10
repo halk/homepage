@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "//www.halilkoklu.de"
+baseURL = "https://www.halilkoklu.de"
 languageCode = "en-GB"
 title = "Halil Köklü"
 theme = "split"
@@ -16,7 +16,7 @@ copyright = "&copy; Halil Köklü"
 
   # Metadata for search engines and social sharing
   author = "Halil Köklü"
-  description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups in North & South America, Europe and the Middle East, with amongst others Rocket Internet, Namshi and Koding. He is currently CTO at LoveCrafts."
+  description = "Halil is an Ecommerce-Savvy Technology Leader with a track-record of driving startups. He is currently CTO at LoveCrafts."
   shareImage = "images/social.jpg"
   twitterHandle = "halk"
 
