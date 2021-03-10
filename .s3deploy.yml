@@ -12,4 +12,6 @@ routes:
          Cache-Control: "max-age=2592000, no-transform, public"
       gzip: true
     - route: "^.+\\.(html)$"
+      headers:
+         Cache-Control: "max-age=86400, no-transform, public"
       gzip: true
